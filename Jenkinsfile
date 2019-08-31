@@ -7,7 +7,12 @@ pipeline {
             steps { 
                 script { 
                     prebuild.pre_build()
-                
+                }
+            }
+        stage ('build') {
+            steps { 
+                script { 
+                    build.buil_job()
                 }
             }
         }
