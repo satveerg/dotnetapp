@@ -1,3 +1,12 @@
 #!/bin/groovy
 @Library('learning-library') _
-pipelineDeploy()
+pipeline {
+    agent any
+    stage ('checkout') {
+        steps { 
+            script { 
+                checkout.checkout
+            }
+        }
+    }
+}
