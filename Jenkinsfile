@@ -1,7 +1,7 @@
 #!/bin/groovy
 @Library('learning-library') _
 pipeline {
-    agent any
+    agent master
     stages {
         stage ('checkout') {
             steps { 
