@@ -9,10 +9,11 @@ pipeline {
                     prebuild.pre_build()
                 }
             }
+        }    
         stage ('build') {
             steps { 
-                script { 
-                    build.buil_job()
+                script {
+                    build.build_job()
                 }
             }
         }
