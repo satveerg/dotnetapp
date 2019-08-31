@@ -6,7 +6,7 @@ pipeline {
         stage ('checkout') {
             steps { 
                 script { 
-                    checkout.checkout
+                    checkout.checkout_from()
                 
                 }
             }
