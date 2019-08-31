@@ -6,7 +6,7 @@ pipeline {
         stage ('checkout') {
             steps { 
                 script { 
-                    prebuild.pre_build
+                    prebuild.pre_build()
                 
                 }
             }
