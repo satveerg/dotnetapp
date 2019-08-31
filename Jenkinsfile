@@ -1,3 +1,3 @@
 #!/bin/groovy
 @Library('learning-library') _
-pipelineDeploy(this)
+pipelineDeploy()
