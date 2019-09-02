@@ -1,0 +1,8 @@
+# Default values for k8s.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+CONFIGMAP_NAME: hello-world-configmap
+SERVICE_NAME: nbs-mortgages-myservice
+DEPLOYMENT_NAME: hello-world-deployment
+REPLICA_COUNT: 1
+IMAGE_NAME: satveerg/pipeline_image

@@ -10,5 +10,12 @@ pipeline {
                 }
             }
         }
+        stage ('deploy') {
+            steps {
+                script {
+                    build.deploy_job()
+                }
+            }
+        }
     }
 }
