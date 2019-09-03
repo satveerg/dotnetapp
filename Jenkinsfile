@@ -13,7 +13,7 @@ pipeline {
         stage ('deploy') {
             steps {
                 script {
-                    build.deploy_job()
+                    deploy.deploy_job()
                 }
             }
         }
